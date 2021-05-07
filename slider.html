@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">
+                    <img class="logo__link" src="images/logo.webp" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__list-link" href="index.html">Главная</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="aboutus.html">О НАС</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="price.html">ПРАЙС</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="repeairs.html">О РЕМОНТЕ</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="contact.html">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+                <a class="phone" href="tel:+79998887766">+7 999 888 77 66</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="top">
+        <div class="all">
+            <input checked type="radio" name="respond" id="desktop">
+            <article id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <input type="radio" name="slider" id="switch5">
+                <div id="slides">
+                    <div id="overflow">
+                        <div class="image">
+                            <article><img src="images/review1.png"></article>
+                            <article><img src="images/review2.png"></article>
+                            <article><img src="images/review3.png"></article>
+                            <article><img src="images/review4.png"></article>
+                            <article><img src="images/review5.png"></article>
+                        </div>
+                    </div>
+                </div>
+                <div id="active">
+                    <label for="switch1"></label>
+                    <label for="switch2"></label>
+                    <label for="switch3"></label>
+                    <label for="switch4"></label>
+                    <label for="switch5"></label>
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer class="footer" style="background-color: #232323;">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__inner-item">
+                    <img class="logo__link" src="images/logo.webp" alt="logo">
+                    <p class="footer__contacts">
+                        <b>Мы работает для Вас</b><br>
+                    <p class="footer__contacts p__contact">Понедельник - Пятница: 9:00 - 20:00<br>
+                        Суббота & Воскресенье: 10:00 - 18:00<br></p>
+                    </p>
+                </div>
+                <div class="footer__inner-item">
+
+                    <p class="footer__contacts">
+                        <b>Быстрые сслыки</b><br>
+                    <ul class="footer__menu-link">
+                        <li class="menu__item"><a class="menu__list-link" href="index.html">Главная</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-a" href="repair.html">Ремонт</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-a" href="contact.html">Место расположения</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-a" href="price.html">Прайс</a></li>
+                        <li class="footer__menu-item"><a class="footer__menu-a" href="aboutus.html">О нас</a></li>
+                    </ul>
+
+                    </p>
+                </div>
+                <div class="footer__inner-item">
+                    <p class="footer__contacts"><b>Мы Вам позвоним!</b></p>
+
+                    <form>
+                        <input class="footer__form" type="text" name="Имя" placeholder="Сергей">
+                        <br>
+                        <input class="footer__form" type="text" name="Телефон" placeholder="+7(___)_______">
+                        <br><br>
+                        <button type="submit" class="footer__buttom">Оставить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
